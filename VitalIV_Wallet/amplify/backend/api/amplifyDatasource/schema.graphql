@@ -1,0 +1,5 @@
+type PayType @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  Card: String!
+  description: String
+}
